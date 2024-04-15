@@ -13,11 +13,11 @@ datax-project/\
 ├── report/\
 ├── models/\
 ├── notebooks/\
+├── sandbox/\
 │   ├── daniel_borner/\
 │   ├── lucie_pinterova/\
 │   ├── veronika_junkova/\
-│   ├── filip_rott/\
-│   └── final/\
+│   └── filip_rott/\
 ├── requirements.txt\
 ├── readme.md\
-└── gitignore\
+└── gitignore
