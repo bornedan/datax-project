@@ -26,6 +26,7 @@ columns_to_drop = ['listing_url', 'scrape_id', 'last_scraped', 'name', 'descript
 listings = listings.drop(columns=columns_to_drop)
 
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 numeric_columns = listings.select_dtypes(include=['float64', 'int64'])
 categorical_columns = listings.select_dtypes(include=['object'])
